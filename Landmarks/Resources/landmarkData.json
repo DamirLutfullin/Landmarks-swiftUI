@@ -36,7 +36,7 @@
         "state": "Alaska",
         "id": 1003,
         "isFeatured": false,
-        "isFavorite": true,
+        "isFavorite": false,
         "park": "Klondike Gold Rush National Historical Park",
         "coordinates": {
             "longitude": -135.334571,
@@ -66,7 +66,7 @@
         "state": "Alaska",
         "id": 1005,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "park": "Lake Clark National Park and Preserve",
         "coordinates": {
             "longitude": -153.849883,
@@ -96,7 +96,7 @@
         "state": "Alaska",
         "id": 1007,
         "isFeatured": true,
-        "isFavorite": false,
+        "isFavorite": true,
         "park": "Charley Rivers National Preserve",
         "coordinates": {
             "longitude": -143.122586,
@@ -111,7 +111,7 @@
         "state": "Alaska",
         "id": 1008,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "park": "Wrangell-St. Elias National Park and Preserve",
         "coordinates": {
             "longitude": -141.518167,
@@ -141,7 +141,7 @@
         "state": "Washington",
         "id": 1010,
         "isFeatured": false,
-        "isFavorite": false,
+        "isFavorite": true,
         "park": "North Cascades National Park",
         "coordinates": {
             "longitude": -121.17799,

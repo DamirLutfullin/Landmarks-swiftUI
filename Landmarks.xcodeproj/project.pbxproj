@@ -32,6 +32,7 @@
 		19C8C0E3240C1B3B00BBF755 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19C8C0D7240C1B3B00BBF755 /* chilkoottrail.jpg */; };
 		19C8C0E4240C1B3B00BBF755 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19C8C0D8240C1B3B00BBF755 /* rainbowlake.jpg */; };
 		19C8C0E8240C1C3E00BBF755 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 19C8C0E7240C1C3E00BBF755 /* landmarkData.json */; };
+		19FD750B240C71440090AEAC /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19FD750A240C71440090AEAC /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		19C8C0D7240C1B3B00BBF755 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		19C8C0D8240C1B3B00BBF755 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		19C8C0E7240C1C3E00BBF755 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		19FD750A240C71440090AEAC /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				19898DF5240A7FB000B33E40 /* AppDelegate.swift */,
-				1947AB32240BCA6A00B8942E /* Models */,
 				19898DF7240A7FB000B33E40 /* SceneDelegate.swift */,
+				1947AB32240BCA6A00B8942E /* Models */,
 				19898DF9240A7FB000B33E40 /* LandmarkDetail.swift */,
 				1947AB21240BC6D900B8942E /* LandmarkRow.swift */,
 				1947AB59240BE5A400B8942E /* LandmarkList.swift */,
@@ -116,6 +118,7 @@
 				19898E00240A7FB100B33E40 /* LaunchScreen.storyboard */,
 				19898E03240A7FB100B33E40 /* Info.plist */,
 				19898DFD240A7FB100B33E40 /* Preview Content */,
+				19FD750A240C71440090AEAC /* UserData.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				19898DF8240A7FB000B33E40 /* SceneDelegate.swift in Sources */,
 				19898DFA240A7FB000B33E40 /* LandmarkDetail.swift in Sources */,
 				1964B185240C0E35000DE36D /* Data.swift in Sources */,
+				19FD750B240C71440090AEAC /* UserData.swift in Sources */,
 				1947AB22240BC6D900B8942E /* LandmarkRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

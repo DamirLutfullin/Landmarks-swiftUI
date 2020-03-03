@@ -13,25 +13,27 @@ struct LandmarkRow: View {
     var landmark: Landmark
     
     var body: some View {
-        HStack  {
-            landmark.image
-                .resizable()
-                .frame(width: 100, height: 100)
-                .clipShape(Circle())
-                .overlay(
-                    Circle().stroke(Color.white, lineWidth: 1))
-                .shadow(radius: 10)
-            Spacer()
-            Text(landmark.name)
-                .font(.title)
-            Spacer()
-            
-            if landmark.isFavorite {
-                Image(systemName: "star.fill")
-                    .imageScale(.medium)
-                    .foregroundColor(.yellow)
-            }
-        }.padding()
+        VStack {
+            HStack  {
+                landmark.image
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle().stroke(Color.white, lineWidth: 1))
+                    .shadow(radius: 10)
+                Spacer()
+                Text(landmark.name)
+                    .font(.title)
+                Spacer()
+                
+                if landmark.isFavorite {
+                    Image(systemName: "star.fill")
+                        .imageScale(.medium)
+                        .foregroundColor(.yellow)
+                }
+            }.padding()
+        }
         
     }
     

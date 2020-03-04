@@ -17,7 +17,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
         
-        let contentView = LandmarkList()
+        let contentView = CategoryHome()
             .environmentObject(UserData())
 
         // Use a UIHostingController as window root view controller.

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1910143824146A510030EDB7 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1910143724146A510030EDB7 /* CategoryRow.swift */; };
 		192544D3240ABE0300306043 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192544D2240ABE0300306043 /* CircleImage.swift */; };
 		192544D7240AC5B100306043 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192544D6240AC5B100306043 /* MapView.swift */; };
 		1936C077240F0289006C571A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1936C076240F0289006C571A /* Home.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1910143724146A510030EDB7 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		192544D2240ABE0300306043 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		192544D6240AC5B100306043 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		1936C076240F0289006C571A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				19898DF9240A7FB000B33E40 /* LandmarkDetail.swift */,
 				1947AB21240BC6D900B8942E /* LandmarkRow.swift */,
 				1936C076240F0289006C571A /* Home.swift */,
+				1910143724146A510030EDB7 /* CategoryRow.swift */,
 				1947AB59240BE5A400B8942E /* LandmarkList.swift */,
 				19FD750A240C71440090AEAC /* UserData.swift */,
 				19C8C0CC240C1B3B00BBF755 /* Resources */,
@@ -247,6 +250,7 @@
 				192544D7240AC5B100306043 /* MapView.swift in Sources */,
 				1936C077240F0289006C571A /* Home.swift in Sources */,
 				1947AB5A240BE5A400B8942E /* LandmarkList.swift in Sources */,
+				1910143824146A510030EDB7 /* CategoryRow.swift in Sources */,
 				1936C081240F05EB006C571A /* Hike.swift in Sources */,
 				19898DF8240A7FB000B33E40 /* SceneDelegate.swift in Sources */,
 				1936C07D240F05C9006C571A /* Data.swift in Sources */,

@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct CategoryRow: View {
+    
     var categoryName: String
     var items: [Landmark]
     
@@ -38,6 +39,7 @@ struct CategoryRow: View {
 }
 
 struct CategoryItem: View {
+    
     var landmark: Landmark
     var body: some View {
         VStack(alignment: .leading) {
@@ -56,9 +58,7 @@ struct CategoryItem: View {
 
 struct CategoryRow_Previews: PreviewProvider {
     static var previews: some View {
-        CategoryRow(
-            categoryName: landmarkData[0].category.rawValue,
-            items: Array(landmarkData.prefix(4))
-        )
+        CategoryRow(categoryName: landmarkData[0].category.rawValue,
+                    items: Array(landmarkData.prefix(4)))
     }
 }

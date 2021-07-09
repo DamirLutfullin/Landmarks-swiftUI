@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct CategoryHome: View {
+    
     var categories: [String: [Landmark]] {
         Dictionary(
             grouping: landmarkData,

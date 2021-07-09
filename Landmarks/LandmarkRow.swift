@@ -32,9 +32,7 @@ struct LandmarkRow: View {
                     .foregroundColor(.yellow)
             }
         }.padding()
-        
     }
-    
 }
 
 struct LandmarkRow_Previews: PreviewProvider {
